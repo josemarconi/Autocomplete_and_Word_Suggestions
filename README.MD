@@ -381,6 +381,9 @@ Limitações:
  Para um cenário pequeno e inerte de dados, pela simplicidade a Binária Comum é uma boa opção. Porém para uma frequência alta de repetidos dados, a AVL é uma melhor opção para busca. Para casos de otimização crucial em espaço de armazenamento, o código de Huffman será a melhor opção. 
  
  Concluindo, temos que o trabalho é ótimo para conhecer as estruturas que são as árvores binárias, suas implementações, funcionalidades, vantagens e desvantagens principais nos quesitos tanto de tempo, quanto de espaço. Nos da um leque maior de oportunidades e conhecimentos para aplicações futuras. 
+
+ >Uma observação importante, é que há uma má otimização no código que faz com que seu tempo de execução esteja muito acima do esperado. Pela falta de tempo, não foi possível realizar a otimização.
+
 <p> </p>
 
 <p> </p>
