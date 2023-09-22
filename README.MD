@@ -13,7 +13,7 @@ AEDS II | CEFET-MG
 # Introdução
 <p align="justify">
 
- A porposta do trabalho é formular um sistema de autocompletar e sugestões de palavras, que, quando bem projetados e implementados, podem aumentar significativamente a eficiência e a usabilidade de aplicativos, mecanismos de busca e várias outras interfaces digitais. Nesse contexto, este trabalho se propõe a explorar a concepção e a implementação de um Sistema de Autocompletar e Sugestões de Palavras com base na estrutura da árvore binária.
+ A proposta do trabalho é formular um sistema de autocompletar e sugestões de palavras, que, quando bem projetados e implementados, podem aumentar significativamente a eficiência e a usabilidade de aplicativos, mecanismos de busca e várias outras interfaces digitais. Nesse contexto, este trabalho se propõe a explorar a concepção e a implementação de um Sistema de Autocompletar e Sugestões de Palavras com base na estrutura da árvore binária.
  
  A essência deste projeto reside na criação de um sistema inteligente capaz de antecipar e oferecer sugestões de palavras relevantes enquanto o usuário digita ou busca informações. Para atingir esse objetivo, o trabalho se divide em quatro etapas distintas e interconectadas.
 
