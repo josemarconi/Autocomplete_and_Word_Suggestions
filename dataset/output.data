@@ -1,0 +1,425 @@
+---------------- Iniciando ----------------
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: teoria
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: priori: 125 | modo: 129 | condição: 134 | mundo: 134 | sujeito: 158 | 
+
+AVL -> posOrder: condição: 134 | modo: 129 | mundo: 134 | sujeito: 158 | priori: 125 | 
+
+Huffman -> preOrder: [00] = modo: 129  |  [01] = mundo: 134  |  [10] = sujeito: 158  |  [110] = priori: 125  |  [111] = condição: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: modo: 129 | condição: 133 | mundo: 144 | priori: 144 | sujeito: 154 | 
+
+AVL -> posOrder: condição: 133 | mundo: 144 | sujeito: 154 | priori: 144 | modo: 129 | 
+
+Huffman -> preOrder: [00] = mundo: 144  |  [01] = priori: 144  |  [10] = sujeito: 154  |  [110] = modo: 129  |  [111] = condição: 133  |  
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti2.txt = Palavra não se encontra no texto. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: sujeito
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: priori: 125 | modo: 129 | mundo: 134 | condição: 134 | teoria: 176 | 
+
+AVL -> posOrder: modo: 129 | mundo: 134 | condição: 134 | teoria: 176 | priori: 125 | 
+
+Huffman -> preOrder: [00] = mundo: 134  |  [01] = condição: 134  |  [10] = teoria: 176  |  [110] = priori: 125  |  [111] = modo: 129  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: modo: 129 | condição: 133 | mundo: 144 | priori: 144 | teoria: 192 | 
+
+AVL -> posOrder: condição: 133 | mundo: 144 | teoria: 192 | priori: 144 | modo: 129 | 
+
+Huffman -> preOrder: [00] = mundo: 144  |  [01] = priori: 144  |  [10] = teoria: 192  |  [110] = modo: 129  |  [111] = condição: 133  |  
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti2.txt = Palavra não se encontra no texto. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: priori
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: modo: 129 | mundo: 134 | condição: 134 | sujeito: 158 | teoria: 176 | 
+
+AVL -> posOrder: mundo: 134 | sujeito: 158 | condição: 134 | teoria: 176 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 134  |  [01] = sujeito: 158  |  [10] = teoria: 176  |  [110] = modo: 129  |  [111] = mundo: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: modo: 129 | condição: 133 | mundo: 144 | sujeito: 154 | teoria: 192 | 
+
+AVL -> posOrder: mundo: 144 | condição: 133 | sujeito: 154 | teoria: 192 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 133  |  [01] = sujeito: 154  |  [10] = teoria: 192  |  [110] = modo: 129  |  [111] = mundo: 144  |  
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti2.txt = Palavra não se encontra no texto. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: processo
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: modo: 129 | mundo: 134 | condição: 134 | sujeito: 158 | teoria: 176 | 
+
+AVL -> posOrder: mundo: 134 | sujeito: 158 | condição: 134 | teoria: 176 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 134  |  [01] = sujeito: 158  |  [10] = teoria: 176  |  [110] = modo: 129  |  [111] = mundo: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: condição: 133 | mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | 
+
+AVL -> posOrder: mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | condição: 133 | 
+
+Huffman -> preOrder: [00] = priori: 144  |  [01] = sujeito: 154  |  [10] = teoria: 192  |  [110] = condição: 133  |  [111] = mundo: 144  |  
+
+Texto: dataset/globalizacao.txt 
+Binária Comum -> inorder: importância: 134 | melhoria: 134 | sistema: 134 | assim: 199 | sentido: 200 | 
+
+AVL -> posOrder: melhoria: 134 | sistema: 134 | sentido: 200 | assim: 199 | importância: 134 | 
+
+Huffman -> preOrder: [00] = sistema: 134  |  [01] = assim: 199  |  [10] = sentido: 200  |  [110] = importância: 134  |  [111] = melhoria: 134  |  
+
+Texto: dataset/politica.txt 
+Binária Comum -> inorder: assim: 201 | melhoria: 201 | saúde: 201 | políticas: 267 | político: 400 | 
+
+AVL -> posOrder: melhoria: 201 | saúde: 201 | político: 400 | políticas: 267 | assim: 201 | 
+
+Huffman -> preOrder: [00] = saúde: 201  |  [01] = políticas: 267  |  [10] = político: 400  |  [110] = assim: 201  |  [111] = melhoria: 201  |  
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: informações: 201 | ti: 201 | implantação: 266 | segurança: 268 | utilização: 399 | 
+
+AVL -> posOrder: ti: 201 | utilização: 399 | segurança: 268 | implantação: 266 | informações: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 266  |  [01] = segurança: 268  |  [10] = utilização: 399  |  [110] = informações: 201  |  [111] = ti: 201  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: ti: 201 | dados: 201 | implantação: 267 | segurança: 268 | utilização: 400 | 
+
+AVL -> posOrder: dados: 201 | utilização: 400 | segurança: 268 | implantação: 267 | ti: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 267  |  [01] = segurança: 268  |  [10] = utilização: 400  |  [110] = ti: 201  |  [111] = dados: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: assim
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: modo: 129 | mundo: 134 | condição: 134 | sujeito: 158 | teoria: 176 | 
+
+AVL -> posOrder: mundo: 134 | sujeito: 158 | condição: 134 | teoria: 176 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 134  |  [01] = sujeito: 158  |  [10] = teoria: 176  |  [110] = modo: 129  |  [111] = mundo: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: condição: 133 | mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | 
+
+AVL -> posOrder: mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | condição: 133 | 
+
+Huffman -> preOrder: [00] = priori: 144  |  [01] = sujeito: 154  |  [10] = teoria: 192  |  [110] = condição: 133  |  [111] = mundo: 144  |  
+
+Texto: dataset/globalizacao.txt 
+Binária Comum -> inorder: quadros: 134 | melhoria: 134 | sistema: 134 | processo: 200 | sentido: 200 | 
+
+AVL -> posOrder: melhoria: 134 | sistema: 134 | processo: 200 | sentido: 200 | quadros: 134 | 
+
+Huffman -> preOrder: [00] = sistema: 134  |  [01] = processo: 200  |  [10] = sentido: 200  |  [110] = quadros: 134  |  [111] = melhoria: 134  |  
+
+Texto: dataset/politica.txt 
+Binária Comum -> inorder: atual: 201 | melhoria: 201 | saúde: 201 | políticas: 267 | político: 400 | 
+
+AVL -> posOrder: melhoria: 201 | saúde: 201 | político: 400 | políticas: 267 | atual: 201 | 
+
+Huffman -> preOrder: [00] = saúde: 201  |  [01] = políticas: 267  |  [10] = político: 400  |  [110] = atual: 201  |  [111] = melhoria: 201  |  
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: informações: 201 | ti: 201 | implantação: 266 | segurança: 268 | utilização: 399 | 
+
+AVL -> posOrder: ti: 201 | utilização: 399 | segurança: 268 | implantação: 266 | informações: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 266  |  [01] = segurança: 268  |  [10] = utilização: 399  |  [110] = informações: 201  |  [111] = ti: 201  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: dados: 201 | ti: 201 | implantação: 267 | segurança: 268 | utilização: 400 | 
+
+AVL -> posOrder: ti: 201 | segurança: 268 | utilização: 400 | implantação: 267 | dados: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 267  |  [01] = segurança: 268  |  [10] = utilização: 400  |  [110] = dados: 201  |  [111] = ti: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: políticas
+
+
+Texto: dataset/filosofia.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/filosofia2.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/globalizacao.txt 
+Binária Comum -> inorder: teoria: 368 | sistema: 368 | assim: 379 | modo: 392 | sentido: 421 | 
+
+AVL -> posOrder: sistema: 368 | assim: 379 | modo: 392 | sentido: 421 | teoria: 368 | 
+
+Huffman -> preOrder: [00] = assim: 379  |  [01] = modo: 392  |  [10] = sentido: 421  |  [110] = teoria: 368  |  [111] = sistema: 368  |  
+
+Texto: dataset/politica.txt 
+Binária Comum -> inorder: melhoria: 201 | atual: 201 | saúde: 201 | assim: 201 | político: 400 | 
+
+AVL -> posOrder: atual: 201 | saúde: 201 | assim: 201 | político: 400 | melhoria: 201 | 
+
+Huffman -> preOrder: [00] = saúde: 201  |  [01] = assim: 201  |  [10] = político: 400  |  [110] = melhoria: 201  |  [111] = atual: 201  |  
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: informações: 201 | ti: 201 | implantação: 266 | segurança: 268 | utilização: 399 | 
+
+AVL -> posOrder: ti: 201 | utilização: 399 | segurança: 268 | implantação: 266 | informações: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 266  |  [01] = segurança: 268  |  [10] = utilização: 399  |  [110] = informações: 201  |  [111] = ti: 201  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: ti: 201 | dados: 201 | implantação: 267 | segurança: 268 | utilização: 400 | 
+
+AVL -> posOrder: dados: 201 | utilização: 400 | segurança: 268 | implantação: 267 | ti: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 267  |  [01] = segurança: 268  |  [10] = utilização: 400  |  [110] = ti: 201  |  [111] = dados: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: político
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: modo: 129 | mundo: 134 | condição: 134 | sujeito: 158 | teoria: 176 | 
+
+AVL -> posOrder: mundo: 134 | sujeito: 158 | condição: 134 | teoria: 176 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 134  |  [01] = sujeito: 158  |  [10] = teoria: 176  |  [110] = modo: 129  |  [111] = mundo: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: condição: 133 | mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | 
+
+AVL -> posOrder: mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | condição: 133 | 
+
+Huffman -> preOrder: [00] = priori: 144  |  [01] = sujeito: 154  |  [10] = teoria: 192  |  [110] = condição: 133  |  [111] = mundo: 144  |  
+
+Texto: dataset/globalizacao.txt 
+Binária Comum -> inorder: melhoria: 134 | sistema: 134 | assim: 199 | sentido: 200 | processo: 200 | 
+
+AVL -> posOrder: sistema: 134 | sentido: 200 | processo: 200 | assim: 199 | melhoria: 134 | 
+
+Huffman -> preOrder: [00] = assim: 199  |  [01] = sentido: 200  |  [10] = processo: 200  |  [110] = melhoria: 134  |  [111] = sistema: 134  |  
+
+Texto: dataset/politica.txt 
+Binária Comum -> inorder: melhoria: 201 | atual: 201 | saúde: 201 | assim: 201 | políticas: 267 | 
+
+AVL -> posOrder: atual: 201 | saúde: 201 | assim: 201 | políticas: 267 | melhoria: 201 | 
+
+Huffman -> preOrder: [00] = saúde: 201  |  [01] = assim: 201  |  [10] = políticas: 267  |  [110] = melhoria: 201  |  [111] = atual: 201  |  
+
+Texto: dataset/ti.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti2.txt = Palavra não se encontra no texto. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: ti
+
+
+Texto: dataset/filosofia.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/filosofia2.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: processo: 645 | modo: 659 | sistema: 702 | sentido: 755 | assim: 779 | 
+
+AVL -> posOrder: sistema: 702 | modo: 659 | assim: 779 | sentido: 755 | processo: 645 | 
+
+Huffman -> preOrder: [00] = modo: 659  |  [01] = sentido: 755  |  [10] = assim: 779  |  [110] = processo: 645  |  [111] = sistema: 702  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: dados: 201 | aumento: 201 | implantação: 267 | segurança: 268 | utilização: 400 | 
+
+AVL -> posOrder: aumento: 201 | segurança: 268 | utilização: 400 | implantação: 267 | dados: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 267  |  [01] = segurança: 268  |  [10] = utilização: 400  |  [110] = dados: 201  |  [111] = aumento: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: segurança
+
+
+Texto: dataset/filosofia.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/filosofia2.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt 
+Binária Comum -> inorder: processo: 513 | modo: 526 | político: 540 | assim: 580 | sentido: 621 | 
+
+AVL -> posOrder: político: 540 | modo: 526 | assim: 580 | sentido: 621 | processo: 513 | 
+
+Huffman -> preOrder: [00] = modo: 526  |  [01] = assim: 580  |  [10] = sentido: 621  |  [110] = processo: 513  |  [111] = político: 540  |  
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: ti: 201 | informações: 201 | novas: 201 | implantação: 266 | utilização: 399 | 
+
+AVL -> posOrder: informações: 201 | novas: 201 | utilização: 399 | implantação: 266 | ti: 201 | 
+
+Huffman -> preOrder: [00] = novas: 201  |  [01] = implantação: 266  |  [10] = utilização: 399  |  [110] = ti: 201  |  [111] = informações: 201  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: ti: 201 | dados: 201 | aumento: 201 | implantação: 267 | utilização: 400 | 
+
+AVL -> posOrder: dados: 201 | aumento: 201 | utilização: 400 | implantação: 267 | ti: 201 | 
+
+Huffman -> preOrder: [00] = aumento: 201  |  [01] = implantação: 267  |  [10] = utilização: 400  |  [110] = ti: 201  |  [111] = dados: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: utilização
+
+
+Texto: dataset/filosofia.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/filosofia2.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: processo: 645 | modo: 659 | sistema: 702 | sentido: 755 | assim: 779 | 
+
+AVL -> posOrder: sistema: 702 | modo: 659 | assim: 779 | sentido: 755 | processo: 645 | 
+
+Huffman -> preOrder: [00] = modo: 659  |  [01] = sentido: 755  |  [10] = assim: 779  |  [110] = processo: 645  |  [111] = sistema: 702  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: aumento: 201 | dados: 201 | ti: 201 | implantação: 267 | segurança: 268 | 
+
+AVL -> posOrder: dados: 201 | ti: 201 | segurança: 268 | implantação: 267 | aumento: 201 | 
+
+Huffman -> preOrder: [00] = ti: 201  |  [01] = implantação: 267  |  [10] = segurança: 268  |  [110] = aumento: 201  |  [111] = dados: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: dados
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: modo: 129 | mundo: 134 | condição: 134 | sujeito: 158 | teoria: 176 | 
+
+AVL -> posOrder: mundo: 134 | sujeito: 158 | condição: 134 | teoria: 176 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 134  |  [01] = sujeito: 158  |  [10] = teoria: 176  |  [110] = modo: 129  |  [111] = mundo: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: condição: 133 | mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | 
+
+AVL -> posOrder: mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | condição: 133 | 
+
+Huffman -> preOrder: [00] = priori: 144  |  [01] = sujeito: 154  |  [10] = teoria: 192  |  [110] = condição: 133  |  [111] = mundo: 144  |  
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt 
+Binária Comum -> inorder: sistema: 468 | informações: 469 | processo: 530 | sentido: 534 | assim: 599 | 
+
+AVL -> posOrder: informações: 469 | sentido: 534 | processo: 530 | assim: 599 | sistema: 468 | 
+
+Huffman -> preOrder: [00] = processo: 530  |  [01] = sentido: 534  |  [10] = assim: 599  |  [110] = sistema: 468  |  [111] = informações: 469  |  
+
+Texto: dataset/ti2.txt 
+Binária Comum -> inorder: aumento: 201 | ti: 201 | implantação: 267 | segurança: 268 | utilização: 400 | 
+
+AVL -> posOrder: ti: 201 | utilização: 400 | segurança: 268 | implantação: 267 | aumento: 201 | 
+
+Huffman -> preOrder: [00] = implantação: 267  |  [01] = segurança: 268  |  [10] = utilização: 400  |  [110] = aumento: 201  |  [111] = ti: 201  |  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input: filosofia
+
+
+Texto: dataset/filosofia.txt 
+Binária Comum -> inorder: modo: 129 | mundo: 134 | condição: 134 | sujeito: 158 | teoria: 176 | 
+
+AVL -> posOrder: mundo: 134 | sujeito: 158 | condição: 134 | teoria: 176 | modo: 129 | 
+
+Huffman -> preOrder: [00] = condição: 134  |  [01] = sujeito: 158  |  [10] = teoria: 176  |  [110] = modo: 129  |  [111] = mundo: 134  |  
+
+Texto: dataset/filosofia2.txt 
+Binária Comum -> inorder: condição: 133 | mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | 
+
+AVL -> posOrder: mundo: 144 | priori: 144 | sujeito: 154 | teoria: 192 | condição: 133 | 
+
+Huffman -> preOrder: [00] = priori: 144  |  [01] = sujeito: 154  |  [10] = teoria: 192  |  [110] = condição: 133  |  [111] = mundo: 144  |  
+
+Texto: dataset/globalizacao.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/politica.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti.txt = Palavra não se encontra no texto. 
+
+
+Texto: dataset/ti2.txt = Palavra não se encontra no texto. 
+
+FIM DO ARQUIVO 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
