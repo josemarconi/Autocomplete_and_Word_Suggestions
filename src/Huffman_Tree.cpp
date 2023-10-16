@@ -1,4 +1,4 @@
-#include "Huffman_tree.hpp"
+#include "Huffman_Tree.hpp"
 
 void Huffman_Tree::insere(std::shared_ptr<NO_Huffman> no)
 {
