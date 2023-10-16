@@ -3,7 +3,7 @@
 
 #include "Binary_Tree.hpp"
 #include "AVL_Tree.hpp"
-#include "Huffman_tree.hpp"
+#include "Huffman_Tree.hpp"
 #include <iostream>
 #include <fstream>
 
